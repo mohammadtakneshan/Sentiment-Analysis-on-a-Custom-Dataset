@@ -183,20 +183,26 @@ To add or modify supported languages, update the `translations` object in the `<
 
 ## Example
 
-Input:
-```
-I love programming.
-This is terrible.
-```
+### English
+I love it. 
+This is great. 
 
-Output:
-```
-Text 1: I love programming.
-Sentiment: Positive
+It’s okay.
+ It's not bad. 
 
-Text 2: This is terrible.
-Sentiment: Negative
-```
+I hate it. 
+This is awful.
+
+### French
+J'adore.
+C'est génial.
+
+C'est pas mal.
+Ce n'est pas mal.
+
+Je déteste.
+C'est horrible.
+
 
 ## YouTube Demonstration
 
@@ -207,10 +213,10 @@ For a detailed walkthrough of the project, check out the demonstration video on 
 Here are some screenshots of the application:
 
 - **Input Tab:**
-  ![Input Tab](screenshots/input-tab.png)
+  ![Input Tab](screenshots)
 
 - **Result Tab:**
-  ![Result Tab](screenshots/result-tab.png)
+  ![Result Tab](screenshots)
 
 Add your screenshots in a `screenshots` directory and replace the paths above with the actual file paths.
 
