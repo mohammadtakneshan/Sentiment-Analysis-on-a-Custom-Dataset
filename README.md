@@ -9,7 +9,6 @@ This project is a web-based application for performing **sentiment analysis** on
 - **Multi-language Support**: Interface supports English, Spanish, Italian, French, and German.
 - **Dynamic Tab Navigation**: Separate tabs for input and result views.
 - **Responsive UI**: Mobile-friendly with an intuitive design.
-- **Text Validation**: Basic language detection to ensure input text matches the selected language.
 - **Timeout Handling**: Requests timeout after 10 seconds to prevent long wait times.
 
 ## Technologies Used
