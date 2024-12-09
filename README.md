@@ -1,7 +1,3 @@
-Here’s the updated README with the new sections and a note on using Anaconda:
-
----
-
 # Sentiment Analysis on a Custom Dataset
 
 ## Overview
@@ -130,7 +126,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-Let me know if you'd like to add or modify anything else!
