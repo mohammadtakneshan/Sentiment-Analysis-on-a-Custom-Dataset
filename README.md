@@ -68,8 +68,4 @@ For testing purposes, example resumes are provided in the `Example_resumes` dire
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
-
----
-
-This README now includes a demo section, example resumes, and a technologies used section, providing a comprehensive overview of the project. 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details. 
