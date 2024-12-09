@@ -41,33 +41,115 @@ This project is a web-based application for performing **sentiment analysis** on
   - Contains the structure for language selection, text input, and sentiment analysis display.
   - Uses JavaScript for dynamic tab switching and event handling.
 
+Here’s the updated README with the **Installing Anaconda Navigator** section mentioning the latest version and the Python version recommendation in the **How to Run** section:
+
+---
+
 ## How to Run
 
-1. Clone the repository:
+### Prerequisites
+- **Python 3.12 or above**: This project is built and tested with Python 3.12. Using this version or newer is recommended for compatibility and optimal performance.
+- **Anaconda**: For managing dependencies and environments easily.
 
+### Steps
+
+1. **Clone the repository**:
    ```bash
    git clone <repository-url>
    cd <repository-folder>
    ```
 
-2. Install Anaconda (for managing dependencies and environments):
+2. **Install Anaconda** (for managing dependencies and environments):
+   - macOS, Windows, Linux: Follow the steps provided in the [Installing Anaconda Navigator](#installing-anaconda-navigator) section below.
 
-   - **macOS, Windows, Linux**:
-     Follow the steps provided [here](#installing-anaconda-navigator).
-
-3. Set up the environment:
+3. **Set up the environment**:
    ```bash
    conda create --name sentiment-env python=3.12
    conda activate sentiment-env
    pip install -r requirements.txt
    ```
 
-4. Start the server:
+4. **Start the server**:
    ```bash
    python app.py
    ```
 
-5. Open `app.html` in your web browser to interact with the application.
+5. **Open the application**:
+   - Open the `templates/app.html` file in your web browser to interact with the application.
+
+---
+
+## Installing Anaconda Navigator
+
+To use this project, you'll need the **latest version of Anaconda**. Follow the steps below to download and install it based on your operating system:
+
+1. **Download the Latest Version**:
+   - Visit [Anaconda's official download page](https://www.anaconda.com/products/distribution).
+   - Download the latest version for your operating system (macOS, Windows, or Linux).
+
+2. **Install Anaconda**:
+   - **macOS**: Download the `.pkg` file and follow the installation wizard.
+   - **Windows**: Download the `.exe` file and follow the installation wizard.
+   - **Linux**: Download the `.sh` file and run:
+     ```bash
+     bash filename.sh
+     ```
+     Follow the on-screen instructions.
+
+3. **Verify Installation**:
+   - Open a terminal or Command Prompt and type:
+     ```bash
+     python --version
+     ```
+     Ensure that Anaconda uses Python 3.12 or above.
+
+4. **Update Anaconda** (optional but recommended):
+   - After installation, ensure your Anaconda is up-to-date:
+     ```bash
+     conda update conda
+     conda update anaconda
+     ```
+
+---
+
+This update ensures clarity about using the latest Anaconda version and Python compatibility. Let me know if you need additional details!
+
+
+## How to Run
+
+### Prerequisites
+- **Python 3.12 or above**: This project is built and tested with Python 3.12. Using this version or newer is recommended for compatibility and optimal performance.
+- **Anaconda**: For managing dependencies and environments easily.
+
+### Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+
+2. **Install Anaconda** (for managing dependencies and environments):
+   - macOS, Windows, Linux: Follow the steps provided [here](#installing-anaconda-navigator).
+
+3. **Set up the environment**:
+   ```bash
+   conda create --name sentiment-env python=3.12
+   conda activate sentiment-env
+   pip install -r requirements.txt
+   ```
+
+4. **Start the server**:
+   ```bash
+   python app.py
+   ```
+
+5. **Open the application**:
+   - Open the `templates/app.html` file in your web browser to interact with the application.
+
+---
+
+This makes it clear that Python 3.12 or above is recommended and integrates well with the setup instructions. Let me know if more adjustments are needed!
 
 ## Installing Anaconda Navigator
 
