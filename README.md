@@ -1,7 +1,3 @@
-Here's an enhanced version of your README, incorporating elements inspired by the [NLP_PROJECT repository](https://github.com/sadman2762/NLP_PROJECT):
-
----
-
 # Sentiment Analysis on a Custom Dataset
 
 This web-based application enables users to perform sentiment analysis on custom text inputs across multiple languages, providing real-time insights into the emotional tone of the content.
