@@ -65,7 +65,3 @@ For testing purposes, example resumes are provided in the `Example_resumes` dire
 
 - **Frontend**: HTML, CSS
 - **Backend**: Flask (Python)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details. 
