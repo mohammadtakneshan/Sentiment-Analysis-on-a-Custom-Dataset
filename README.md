@@ -41,10 +41,6 @@ This project is a web-based application for performing **sentiment analysis** on
   - Contains the structure for language selection, text input, and sentiment analysis display.
   - Uses JavaScript for dynamic tab switching and event handling.
 
----
-
-Let me know if you'd like further refinements or additional details!
-
 ## How to Run
 
 1. Clone the repository:
