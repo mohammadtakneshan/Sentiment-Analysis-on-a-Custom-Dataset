@@ -21,8 +21,36 @@ This project is a web-based application for performing **sentiment analysis** on
 
 ## File Structure
 
-- `app.py`: Python backend server for processing sentiment analysis.
-- `app.html`: Frontend HTML file for user interaction.
+Here's the updated **Project Structure** section, reflecting only the `app.py` and `app.html` setup:
+
+---
+
+## Project Structure
+```
+├── app.py            
+├── templates/
+│   └── app.html        
+├── LICENSE            
+└── README.md          
+```
+
+### **Explanation**
+- **`app.py`**:  
+  This is the main Python backend application file. It handles:
+  - Starting the Flask server.
+  - Rendering the `app.html` file for the user interface.
+  - Managing requests for sentiment analysis and processing user input.
+  - Returning results to the frontend for display.
+
+- **`templates/app.html`**:  
+  This is the frontend HTML file that:
+  - Provides the user interface for input and result visualization.
+  - Contains the structure for language selection, text input, and sentiment analysis display.
+  - Uses JavaScript for dynamic tab switching and event handling.
+
+---
+
+Let me know if you'd like further refinements or additional details!
 
 ## How to Run
 
