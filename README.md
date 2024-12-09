@@ -18,12 +18,6 @@ This project is a web-based application for performing **sentiment analysis** on
 - **Styling**: Custom CSS for a polished UI
 - **API Endpoint**: `/analyze` for handling sentiment analysis
 
-## File Structure
-
-Here's the updated **Project Structure** section, reflecting only the `app.py` and `app.html` setup:
-
----
-
 ## Project Structure
 ```
 ├── app.py            
