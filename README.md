@@ -13,7 +13,6 @@ This web-based application enables users to perform sentiment analysis on custom
 
 For a visual overview of the project, watch the demonstration video:
 
-[![Project Demo](path-to-thumbnail-image)](link-to-demo-video)
 
 ## Installation
 
