@@ -41,10 +41,6 @@ This project is a web-based application for performing **sentiment analysis** on
   - Contains the structure for language selection, text input, and sentiment analysis display.
   - Uses JavaScript for dynamic tab switching and event handling.
 
-Here’s the updated README with the **Installing Anaconda Navigator** section mentioning the latest version and the Python version recommendation in the **How to Run** section:
-
----
-
 ## How to Run
 
 ### Prerequisites
