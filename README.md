@@ -214,10 +214,6 @@ Here are some screenshots of the application:
 
 Add your screenshots in a `screenshots` directory and replace the paths above with the actual file paths.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any feature additions or bug fixes.
-
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
