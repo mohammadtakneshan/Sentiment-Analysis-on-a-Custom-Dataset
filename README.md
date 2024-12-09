@@ -1,7 +1,3 @@
-Here’s the updated README with instructions to use **Anaconda Navigator** and its Python interpreter:
-
----
-
 # Sentiment Analysis on a Custom Dataset
 
 This project is a web-based application for analyzing sentiment in user-provided text. It supports multiple languages and provides an interactive interface for input and output visualization.
