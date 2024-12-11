@@ -17,15 +17,9 @@ This project is a web-based application for performing **sentiment analysis** on
 - **Backend**: Python (with Flask, Transformers, and PyTorch)
 - **Styling**: Custom CSS for a polished UI
 - **API Endpoint**: `/analyze` for handling sentiment analysis
-
-## Project Structure
-```
-├── app.py            
-├── templates/
-│   └── app.html        
-├── LICENSE            
-└── README.md          
-```
+- **Pre-Trained Model**: `nlptown/bert-base-multilingual-uncased-sentiment`
+  - Designed for sentiment analysis across multiple languages.
+  - Outputs star ratings (1-5 stars), mapped to user-friendly sentiment labels.
 
 ---
 
@@ -82,6 +76,36 @@ This project is a web-based application for performing **sentiment analysis** on
 3. Click "Analyze" to process the sentiment of the input text.
 4. View the results on the "Result" tab.
 5. To start a new analysis, click "New Analysis" and clear the input field.
+
+---
+
+## Technical Tools and Why They Were Used
+
+### Pre-Trained Model
+- **Model**: `nlptown/bert-base-multilingual-uncased-sentiment`
+  - Supports multilingual sentiment analysis, which aligns with the application's multilingual features.
+  - Outputs sentiment as star ratings (1-5 stars), which are mapped to user-friendly categories ("Negative," "Neutral," "Positive").
+  - Pre-trained on a large dataset, saving time and computational resources for training.
+
+### Tools
+1. **Flask**:
+   - Lightweight web framework for creating the backend API.
+   - Simplifies serving the user interface and processing API requests.
+
+2. **Transformers Library**:
+   - Provides access to pre-trained models like `nlptown/bert-base-multilingual-uncased-sentiment`.
+   - Makes it easy to load and infer with state-of-the-art NLP models.
+
+3. **PyTorch**:
+   - Backend framework used for running the pre-trained model.
+   - Supports GPU acceleration, enabling faster inference.
+
+4. **GPU Detection**:
+   - Detects GPU availability and runs the model on GPU if available, improving performance.
+
+5. **Sentiment Label Mapping**:
+   - Converts raw star ratings into intuitive labels ("Negative," "Neutral," "Positive").
+   - Enhances the user experience by providing clear and meaningful results.
 
 ---
 
