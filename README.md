@@ -21,8 +21,6 @@ This project is a web-based application for performing **sentiment analysis** on
   - Designed for sentiment analysis across multiple languages.
   - Outputs star ratings (1-5 stars), mapped to user-friendly sentiment labels.
 
----
-
 ## Prerequisites
 
 ### **1. Python 3.12 or above**
@@ -34,7 +32,7 @@ This project is a web-based application for performing **sentiment analysis** on
 
 ### **3. Anaconda**
 - Anaconda simplifies package and dependency management. It includes:
-  - All required libraries (`Flask`, `Transformers`, `torch`) pre-installed.
+  - All required libraries (`Flask`, `Transformers`, `torch`) pre-installed, in the base (root) environment.
   - Integrated tools like Jupyter Notebook and Spyder for development.
 - Install Anaconda as follows:
   - **macOS**: Download the `.pkg` file from [Anaconda's official site](https://www.anaconda.com/) and follow the installer instructions.
@@ -43,9 +41,6 @@ This project is a web-based application for performing **sentiment analysis** on
     ```bash
     bash filename.sh
     ```
-
----
-
 ## How to Run
 
 1. **Clone the repository**:
@@ -54,21 +49,42 @@ This project is a web-based application for performing **sentiment analysis** on
    cd <repository-folder>
    ```
 
-2. **Open in VS Code**:
-   - Launch **VS Code** and open the project folder.
-   - Select the Python interpreter installed with Anaconda.
+2. **Create a Virtual Environment**:
+   To isolate the project dependencies, create a virtual environment in the project folder.
 
-3. **Run the Application**:
+   - **Using Python's `venv`**:
+     - **macOS/Linux**:
+       ```bash
+       python3 -m venv env
+       source env/bin/activate
+       ```
+     - **Windows**:
+       ```bash
+       python -m venv env
+       env\Scripts\activate
+       ```
+
+   - **Alternative (Using VS Code)**:
+     1. Open the project folder in **VS Code**.
+     2. Open the **Command Palette** (press `Ctrl+Shift+P` or `Cmd+Shift+P`).
+     3. Type and select `Python: Create Environment`.
+     4. Choose `venv` as the environment type and follow the prompts.
+     5. VS Code will automatically activate the environment.
+
+3. **Open in VS Code**:
+   - Launch **VS Code** and open the project folder.
+   - Select the Python interpreter installed with Anaconda's base (root) environment.
+If the Python interpreter base(root) is not visible in VS Code: Navigate to the Environments section in Anaconda Navigator and select base(root). At the bottom of the screen, you will see a message displaying the interpreter path as "Loading packages... [interpreter path]." You can use this path to manually select the Python interpreter in VS Code.
+
+4. **Run the Application**:
    - In VS Code's terminal or command palette, run:
      ```bash
      python app.py
      ```
 
-4. **Access the Application**:
+5. **Access the Application**:
    - Open a web browser and navigate to `http://127.0.0.1:5000/`.
-
----
-
+  
 ## How to Use
 
 1. Select your preferred language using the dropdown in the top-right corner.
@@ -77,7 +93,7 @@ This project is a web-based application for performing **sentiment analysis** on
 4. View the results on the "Result" tab.
 5. To start a new analysis, click "New Analysis" and clear the input field.
 
----
+See the screenshots if you are lost.
 
 ## Technical Tools and Why They Were Used
 
@@ -107,13 +123,11 @@ This project is a web-based application for performing **sentiment analysis** on
    - Converts raw star ratings into intuitive labels ("Negative," "Neutral," "Positive").
    - Enhances the user experience by providing clear and meaningful results.
 
----
 
 ## Customization
 
 To add or modify supported languages, update the `translations` object in the `<script>` section of `app.html`.
 
----
 
 ## Sample Text
 
@@ -127,13 +141,12 @@ To add or modify supported languages, update the `translations` object in the `<
 - C'est pas mal. Ce n'est pas mal.
 - Je déteste. C'est horrible.
 
----
 
 ## YouTube Demonstration
 
 For a detailed walkthrough of the project, check out the demonstration video on YouTube.
 
----
+[]
 
 ## Screenshots
 
@@ -144,10 +157,6 @@ Here are some screenshots of the application:
 
 - **Result Tab:**  
   _Add a screenshot of the Result Tab here._
-
-Create a `screenshots` directory in the project folder and replace the placeholders above with actual image paths.
-
----
 
 ## License
 
