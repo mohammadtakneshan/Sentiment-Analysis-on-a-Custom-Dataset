@@ -195,3 +195,14 @@ Here are some screenshots of the application:
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+
+
+
+### **Key Features**
+
+- Multilingual support through BERT.
+- GPU/CPU detection for optimal performance.
+- Input validation and error handling for robustness.
+
+This application is modular, easy to extend, and designed for efficient sentiment analysis.
