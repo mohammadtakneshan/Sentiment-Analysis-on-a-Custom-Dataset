@@ -145,18 +145,17 @@ To add or modify supported languages, update the `translations` object in the `<
 ## YouTube Demonstration
 
 For a detailed walkthrough of the project, check out the demonstration video on YouTube.
-
-[]
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ## Screenshots
 
 Here are some screenshots of the application:
 
 - **Input Tab:**  
-  _Add a screenshot of the Input Tab here._
+![Alt text](screenshots/nlp1.jpg) 
 
 - **Result Tab:**  
-  _Add a screenshot of the Result Tab here._
+![Alt text](screenshots/nlp2.jpg) 
 
 ## License
 
