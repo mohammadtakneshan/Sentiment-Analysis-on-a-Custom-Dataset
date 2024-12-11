@@ -23,24 +23,59 @@ This project is a web-based application for performing **sentiment analysis** on
 
 ## Prerequisites
 
-### **1. Python 3.12 or above**
-- This project is built and tested with Python 3.12. Using this version or newer is recommended for compatibility and optimal performance.
+Here’s the updated prerequisites section with Git installation instructions that avoid using Homebrew:
 
-### **2. Programming Editor (e.g., Visual Studio Code)**
-- A text editor like **Visual Studio Code (VS Code)** is required for writing and running the code.
-- Install VS Code from the [official website](https://code.visualstudio.com/).
+### Prerequisites
 
-### **3. Anaconda**
-- Anaconda simplifies package and dependency management. It includes:
-  - All required libraries (`Flask`, `Transformers`, `torch`) pre-installed, in the base (root) environment.
-  - Integrated tools like Jupyter Notebook and Spyder for development.
-- Install Anaconda as follows:
-  - **macOS**: Download the `.pkg` file from [Anaconda's official site](https://www.anaconda.com/) and follow the installer instructions.
-  - **Windows**: Download the `.exe` file and follow the installer.
-  - **Linux**: Download the `.sh` file and run:
-    ```bash
-    bash filename.sh
-    ```
+1. **Python 3.12 or Above**  
+   This project is built and tested with Python 3.12. Using this version or newer is recommended for compatibility and optimal performance.  
+
+2. **Programming Editor (e.g., Visual Studio Code)**  
+   A text editor like Visual Studio Code (VS Code) is required for writing and running the code.  
+   - Install VS Code from the [official website](https://code.visualstudio.com/).  
+
+3. **Anaconda**  
+   Anaconda simplifies package and dependency management. It includes:  
+   - All required libraries (`Flask`, `Transformers`, `torch`) pre-installed in the base (root) environment.  
+   - Integrated tools like Jupyter Notebook and Spyder for development.  
+
+   Install Anaconda as follows:  
+   - **macOS**: Download the `.pkg` file from [Anaconda's official site](https://www.anaconda.com/) and follow the installer instructions.  
+   - **Windows**: Download the `.exe` file and follow the installer instructions.  
+   - **Linux**: Download the `.sh` file and run:  
+     ```bash
+     bash filename.sh
+     ```  
+
+4. **Git**  
+   Git is required for version control and project collaboration.  
+
+   - **macOS**: Install Git via the Xcode Command Line Tools:  
+     1. Open Terminal and run:  
+        ```bash
+        xcode-select --install
+        ```  
+     2. Follow the on-screen instructions to complete the installation.  
+
+   - **Windows**: Download the Git installer from [Git's official website](https://git-scm.com/) and follow the instructions.  
+
+   - **Linux**: Install Git via your package manager:  
+     - For Ubuntu/Debian:  
+       ```bash
+       sudo apt update
+       sudo apt install git
+       ```  
+     - For Fedora:  
+       ```bash
+       sudo dnf install git
+       ```  
+
+   Verify the installation by checking the version:  
+   ```bash
+   git --version
+   ```
+This version avoids Homebrew and uses native tools or package managers for Git installation.
+
 ## How to Run
 
 1. **Clone the repository**:
