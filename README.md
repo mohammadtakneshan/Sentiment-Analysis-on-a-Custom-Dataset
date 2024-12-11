@@ -1,3 +1,7 @@
+Here’s the updated README file with the requested additions:
+
+---
+
 # Sentiment Analysis on a Custom Dataset
 
 ## Overview
@@ -14,7 +18,7 @@ This project is a web-based application for performing **sentiment analysis** on
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Python (to be provided in `app.py`)
+- **Backend**: Python (with Flask, Transformers, and PyTorch)
 - **Styling**: Custom CSS for a polished UI
 - **API Endpoint**: `/analyze` for handling sentiment analysis
 
@@ -27,106 +31,51 @@ This project is a web-based application for performing **sentiment analysis** on
 └── README.md          
 ```
 
-### **Explanation**
-- **`app.py`**:  
-  This is the main Python backend application file. It handles:
-  - Starting the Flask server.
-  - Rendering the `app.html` file for the user interface.
-  - Managing requests for sentiment analysis and processing user input.
-  - Returning results to the frontend for display.
-
-- **`templates/app.html`**:  
-  This is the frontend HTML file that:
-  - Provides the user interface for input and result visualization.
-  - Contains the structure for language selection, text input, and sentiment analysis display.
-  - Uses JavaScript for dynamic tab switching and event handling.
+---
 
 ## Prerequisites
-- **Python 3.12 or above**: This project is built and tested with Python 3.12. Using this version or newer is recommended for compatibility and optimal performance.
-- **Anaconda**: For managing dependencies and environments easily.
 
-### Installing Anaconda Navigator
+### **1. Python 3.12 or above**
+- This project is built and tested with Python 3.12. Using this version or newer is recommended for compatibility and optimal performance.
 
-1. **macOS**: 
-   - Download the `.pkg` file from [Anaconda's official site](https://www.anaconda.com/products/distribution) and follow the installer instructions.
-2. **Windows**: 
-   - Download the `.exe` file and follow the installer.
-3. **Linux**: 
-   - Download the `.sh` file, then run:
+### **2. Programming Editor (e.g., Visual Studio Code)**
+- A text editor like **Visual Studio Code (VS Code)** is required for writing and running the code.
+- Install VS Code from the [official website](https://code.visualstudio.com/).
+
+### **3. Anaconda**
+- Anaconda simplifies package and dependency management. It includes:
+  - All required libraries (`Flask`, `Transformers`, `torch`) pre-installed.
+  - Integrated tools like Jupyter Notebook and Spyder for development.
+- Install Anaconda as follows:
+  - **macOS**: Download the `.pkg` file from [Anaconda's official site](https://www.anaconda.com/) and follow the installer instructions.
+  - **Windows**: Download the `.exe` file and follow the installer.
+  - **Linux**: Download the `.sh` file and run:
+    ```bash
+    bash filename.sh
+    ```
+
+---
+
+## How to Run
+
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+
+2. **Open in VS Code**:
+   - Launch **VS Code** and open the project folder.
+   - Select the Python interpreter installed with Anaconda.
+
+3. **Run the Application**:
+   - In VS Code's terminal or command palette, run:
      ```bash
-     bash filename.sh
+     python app.py
      ```
 
-For detailed instructions, see the [official guide](https://www.anaconda.com/products/distribution).
-
-### Why Use Anaconda?
-
-Anaconda simplifies package management and environment setup, particularly for data science and machine learning projects. It helps:
-
-- **Manage Dependencies**: Avoid conflicting versions of libraries.
-- **Isolate Environments**: Each project can have its own Python version and dependencies.
-- **Ease of Use**: Pre-installed libraries like NumPy, Pandas, and Jupyter simplify development.
-
-
----
-
-## How to Run
-
-### Steps
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-   ```
-
-2. **Install Anaconda** (for managing dependencies and environments):
-   - macOS, Windows, Linux: Follow the steps provided in the [Installing Anaconda Navigator](#installing-anaconda-navigator) section below.
-
-3. **Set up the environment**:
-   ```bash
-   conda create --name sentiment-env python=3.12
-   conda activate sentiment-env
-   pip install -r requirements.txt
-   ```
-
-4. **Start the server**:
-   ```bash
-   python app.py
-   ```
-
-5. **Open the application**:
-   - Open the `templates/app.html` file in your web browser to interact with the application.
-
----
-
-## How to Run
-
-### Steps
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-   ```
-
-2. **Install Anaconda** (for managing dependencies and environments):
-   - macOS, Windows, Linux: Follow the steps provided [here](#installing-anaconda-navigator).
-
-3. **Set up the environment**:
-   ```bash
-   conda create --name sentiment-env python=3.12
-   conda activate sentiment-env
-   pip install -r requirements.txt
-   ```
-
-4. **Start the server**:
-   ```bash
-   python app.py
-   ```
-
-5. **Open the application**:
-   - Open the `templates/app.html` file in your web browser to interact with the application.
+4. **Access the Application**:
+   - Open a web browser and navigate to `http://127.0.0.1:5000/`.
 
 ---
 
@@ -138,48 +87,47 @@ Anaconda simplifies package management and environment setup, particularly for d
 4. View the results on the "Result" tab.
 5. To start a new analysis, click "New Analysis" and clear the input field.
 
+---
+
 ## Customization
 
 To add or modify supported languages, update the `translations` object in the `<script>` section of `app.html`.
 
+---
+
 ## Sample Text
 
 ### English
-I love it. 
-This is great. 
-
-It’s okay.
- It's not bad. 
-
-I hate it. 
-This is awful.
+- I love it. This is great.
+- It’s okay. It's not bad.
+- I hate it. This is awful.
 
 ### French
-J'adore.
-C'est génial.
+- J'adore. C'est génial.
+- C'est pas mal. Ce n'est pas mal.
+- Je déteste. C'est horrible.
 
-C'est pas mal.
-Ce n'est pas mal.
-
-Je déteste.
-C'est horrible.
-
+---
 
 ## YouTube Demonstration
 
-For a detailed walkthrough of the project, check out the demonstration video on [YouTube](#).
+For a detailed walkthrough of the project, check out the demonstration video on YouTube.
+
+---
 
 ## Screenshots
 
 Here are some screenshots of the application:
 
-- **Input Tab:**
-  ![Input Tab](screenshots)
+- **Input Tab:**  
+  _Add a screenshot of the Input Tab here._
 
-- **Result Tab:**
-  ![Result Tab](screenshots)
+- **Result Tab:**  
+  _Add a screenshot of the Result Tab here._
 
-Add your screenshots in a `screenshots` directory and replace the paths above with the actual file paths.
+Create a `screenshots` directory in the project folder and replace the placeholders above with actual image paths.
+
+---
 
 ## License
 
