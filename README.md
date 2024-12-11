@@ -1,7 +1,3 @@
-Here’s the updated README file with the requested additions:
-
----
-
 # Sentiment Analysis on a Custom Dataset
 
 ## Overview
