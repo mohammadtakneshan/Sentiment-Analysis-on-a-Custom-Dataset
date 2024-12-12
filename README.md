@@ -74,8 +74,6 @@ Here’s the updated prerequisites section with Git installation instructions th
    ```bash
    git --version
    ```
-This version avoids Homebrew and uses native tools or package managers for Git installation.
-
 ## How to Run
 
 1. **Clone the repository**:
@@ -90,7 +88,7 @@ This version avoids Homebrew and uses native tools or package managers for Git i
    - **Using Python's `venv`**:
      - **macOS/Linux**:
        ```bash
-       python3 -m venv env
+       python -m venv env
        source env/bin/activate
        ```
      - **Windows**:
@@ -118,7 +116,7 @@ If the Python interpreter base(root) is not visible in VS Code: Navigate to the 
      ```
 
 5. **Access the Application**:
-   - Open a web browser and navigate to `http://127.0.0.1:5000/`.
+   - Open a web browser and navigate to link given in the terminal.
   
 ## How to Use
 
@@ -176,12 +174,6 @@ To add or modify supported languages, update the `translations` object in the `<
 - C'est pas mal. Ce n'est pas mal.
 - Je déteste. C'est horrible.
 
-
-## YouTube Demonstration
-
-For a detailed walkthrough of the project, check out the demonstration video on YouTube.
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
-
 ## Screenshots
 
 Here are some screenshots of the application:
@@ -195,14 +187,3 @@ Here are some screenshots of the application:
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-
-
-
-### **Key Features**
-
-- Multilingual support through BERT.
-- GPU/CPU detection for optimal performance.
-- Input validation and error handling for robustness.
-
-This application is modular, easy to extend, and designed for efficient sentiment analysis.
