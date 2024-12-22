@@ -1,5 +1,21 @@
 # Sentiment Analysis on a Custom Dataset
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Prerequisites](#prerequisites)
+5. [How to Run](#how-to-run)
+6. [How to Use](#how-to-use)
+7. [Technical Tools and Why They Were Used](#technical-tools-and-why-they-were-used)
+    - [Pre-Trained Model](#pre-trained-model)
+    - [Tools](#tools)
+8. [Customization](#customization)
+9. [Sample Text](#sample-text)
+10. [Screenshots](#screenshots)
+
+
 ## Overview
 
 This project is a web-based application for performing **sentiment analysis** on a custom dataset. Users can input text, analyze sentiment, and view results interactively in multiple languages.
@@ -183,7 +199,3 @@ Here are some screenshots of the application:
 
 - **Result Tab:**  
 ![Alt text](screenshots/nlp2.jpg) 
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
